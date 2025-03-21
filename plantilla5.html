@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denuncias Anónimas para Empresas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Denuncias Anónimas</h1>
+                <p>Protégete con confianza</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#planes">Planes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de Hero con Animación -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Denuncia Anónima, Protege tu Empresa</h2>
+            <p>Brinda un espacio seguro para tus empleados y asegura el bienestar organizacional.</p>
+            <a href="#contacto" class="btn-primary">Realiza tu Denuncia</a>
+        </div>
+    </section>
+
+    <!-- Sección de Beneficios con Iconos -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <h2>Beneficios de Usar Nuestro Servicio</h2>
+            <div class="benefit">
+                <div class="icon">🔒</div>
+                <h3>Confianza y Seguridad</h3>
+                <p>Protección total de la identidad de quien realiza la denuncia.</p>
+            </div>
+            <div class="benefit">
+                <div class="icon">⚖️</div>
+                <h3>Justicia Transparente</h3>
+                <p>La empresa recibe una evaluación imparcial y objetiva.</p>
+            </div>
+            <div class="benefit">
+                <div class="icon">📈</div>
+                <h3>Mejora Continua</h3>
+                <p>Las denuncias contribuyen a la mejora de las políticas internas de la empresa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Planes -->
+    <section id="planes">
+        <div class="container">
+            <h2>Planes Adaptados para tu Empresa</h2>
+            <div class="plans">
+                <div class="plan">
+                    <h3>Plan Básico</h3>
+                    <p>Ideal para pequeñas empresas con pocas denuncias.</p>
+                    <a href="#contacto" class="btn-plan">Más Información</a>
+                </div>
+                <div class="plan">
+                    <h3>Plan Avanzado</h3>
+                    <p>Para empresas medianas con más interacciones y gestión.</p>
+                    <a href="#contacto" class="btn-plan">Más Información</a>
+                </div>
+                <div class="plan">
+                    <h3>Plan Premium</h3>
+                    <p>Para grandes corporaciones que necesitan un sistema robusto y atención personalizada.</p>
+                    <a href="#contacto" class="btn-plan">Más Información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Si necesitas más información o tienes alguna consulta, no dudes en ponerte en contacto con nosotros.</p>
+            <form>
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Tu Email" required>
+                <textarea placeholder="Tu Mensaje" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Denuncias Anónimas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+<style type="text/css">
+    /* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #1e2a47, #00aaff);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Se mantiene fijo en la parte superior */
+    top: 0;
+    width: 100%; /* Se asegura que ocupe todo el ancho */
+    z-index: 1000; /* Para asegurarse de que esté encima del contenido */
+}
+
+header .logo h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header .logo p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f9a826;
+}
+
+/* Sección Hero */
+.hero {
+    background: linear-gradient(135deg, rgba(0, 170, 255, 0.7), rgba(0, 170, 255, 0.5)), url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #f9a826;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #f5a21b;
+}
+
+/* Beneficios */
+.benefits {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.benefit {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    background-color: #f4f6f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.benefit:hover {
+    transform: translateY(-10px);
+}
+
+.benefit .icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.benefit h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #1e2a47;
+}
+
+.benefit p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Planes */
+#planes .plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.plan {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.plan:hover {
+    transform: translateY(-10px);
+}
+
+.plan h3 {
+    font-size: 24px;
+    color: #00aaff;
+    margin-bottom: 20px;
+}
+
+.plan p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.btn-plan {
+    background-color: #00aaff;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-plan:hover {
+    background-color: #0099cc;
+}
+
+/* Contacto */
+.contact {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 70%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact form button {
+    background-color: #00aaff;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact form button:hover {
+    background-color: #0099cc;
+}
+
+/* Footer */
+footer {
+    background-color: #1e2a47;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .benefit, .plan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+</style>

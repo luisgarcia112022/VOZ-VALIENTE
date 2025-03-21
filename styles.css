@@ -1,0 +1,164 @@
+<style>
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #1e2a47, #00aaff);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .logo h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header .logo p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f9a826;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, rgba(0, 170, 255, 0.7), rgba(0, 170, 255, 0.5)), url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 150px 20px;
+    text-align: center;
+    margin-top: 80px; /* To account for fixed header */
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #f9a826;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #f5a21b;
+}
+
+/* Benefits Section */
+.benefits {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.benefit {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    background-color: #f4f6f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.benefit:hover {
+    transform: translateY(-10px);
+}
+
+.benefit .icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.benefit h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #1e2a47;
+}
+
+.benefit p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Footer */
+footer {
+    background-color: #1e2a47;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .benefit {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+</style>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Voz Valiente</h1>
+            <p>Un canal de denuncias a tu medida</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="fraude.html">Fraude</a></li>
+                <li><a href="seguridad.html">Seguridad Patrimonial</a></li>
+                <li><a href="informacion.html">Información General</a></li>
+                <li><a href="etica.html">Ética</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section --> conv segp.fraude
+    <section class="hero">
+        <h2>Contacto</h2>
+        <p>Estamos aquí para ayudarte. Contáctanos para más información sobre nuestros servicios.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="content contact">
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="correo" placeholder="Tu correo electrónico" required>
+            <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+
+            <div class="captcha-container">
+                <div class="captcha-image">Captcha</div>
+                <a href="#" class="captcha-refresh">Recargar Captcha</a>
+            </div>
+            <input type="text" name="captcha" placeholder="Introduce el captcha" required>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+
+        <h2>Información de Contacto</h2>
+        <p><strong>Email:</strong> contacto@vozvaliente.com</p>
+        <p><strong>Teléfono:</strong> +52 55 1234 5678</p>
+        <p><strong>Dirección:</strong> Avenida Principal 123, Ciudad de Los Reyes, Michoacan</p>
+
+        <h2>Síguenos</h2>
+        <p>
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Voz Valiente. Todos los derechos reservados.</p>
+    </footer>
+    <style>
+        .contact {
+            background-color: #f4f6f9;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contact form {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact form input,
+        .contact form textarea,
+        .contact form button {
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .contact form button {
+            background-color: #00aaff;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact form button:hover {
+            background-color: #0077cc;
+        }
+
+        .captcha-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .captcha-image {
+            height: 60px;
+            width: 150px;
+            background: #e0e0e0;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .captcha-refresh {
+            margin-left: 10px;
+            cursor: pointer;
+            color: #00aaff;
+            text-decoration: underline;
+        }
+    </style>
+</body>
+</html>
